@@ -1,0 +1,23 @@
+.but1,.but2,.but3{
+ width: 160px;
+ height: 48px;
+ border: none;
+  cursor: pointer;
+}
+
+.but1{
+    color: white;
+    background-color: #D87D4A;
+}
+.but1:hover{
+    background-color: #FBAF85;
+}
+.but2{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+.but2:hover{
+    background-color: black;
+    color: white;
+}

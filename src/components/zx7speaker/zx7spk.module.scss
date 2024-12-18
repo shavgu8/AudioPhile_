@@ -1,0 +1,47 @@
+.main{
+position: relative;
+     .frimage{
+        display: none
+     }
+     .scimage{
+        display: block;
+     }
+        img{
+            width: 100%;
+            border-radius: 12px;
+        }
+        .positiondiv{
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            transform: translate(50%,-50%);
+            h2{
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 2em;
+                color: white;
+            }
+            button{
+                width: 160px;
+                height: 48px;
+            }
+        }
+    }
+
+    @media (max-width:1025px) {
+        .main{
+            .positiondiv{
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+            }
+            .frimage{
+                display: block
+
+             }
+             .scimage{width: 200px;
+                display: none;
+             }
+        }
+    }

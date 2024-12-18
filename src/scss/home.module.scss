@@ -1,0 +1,47 @@
+
+main,
+footer {
+    padding-left: 6%;
+    padding-right: 6%;
+    box-sizing: border-box;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    .both{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+    }
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  
+   background-color:#0E0E0E;
+}
+@media (max-width:1025px) {
+    header{
+        height: 1000px;
+        gap: 0;
+        
+        
+    }
+}
+@media (max-width:769px) {
+    header{
+        height: 800px;
+        gap: 0;
+        
+        
+    }
+    main{
+        .both{
+            gap: 920px;
+        }
+      }
+}

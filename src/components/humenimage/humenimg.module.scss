@@ -1,0 +1,54 @@
+.mian{
+    display: flex;
+    gap: 40px;
+    .leftside{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        h1{
+            font-size: 3em;
+            text-transform: uppercase;
+        }
+        p{
+            color: gray;
+            font-size: 0.9em;
+        }
+    }
+    .rightside{
+        width: 50%;
+        .scimage{
+            display: none;
+        }
+       
+        .frimage{
+            display: block;
+        }
+        img{
+            border-radius: 12px;
+            width: 100%;
+        }
+    }
+}
+@media (max-width:1025px) {
+ .mian{
+    display: flex;
+    flex-direction: column-reverse;
+    .leftside{
+        width: 100%;
+        text-align: center;
+    }
+    .rightside{
+        width: 100%;
+        
+        .scimage{
+            display: block;
+        }
+       
+        .frimage{
+            display: none;
+        }
+    }
+ }
+}
